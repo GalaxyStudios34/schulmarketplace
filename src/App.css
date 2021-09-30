@@ -1,0 +1,323 @@
+/*
+background-color-rot: #730039
+background-color-hellgrau: #efefef
+
+*/
+
+* {
+    box-sizing: border-box;  
+}
+
+/*Handy*/
+
+
+.teachgym {
+    padding-left: 50px;
+    padding-right: 60px;
+}
+
+.searchroot {
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 2;
+    background-color: #ffffff;
+    position: fixed;
+    transition-property: height;
+    transition-delay: 0.5s;
+    transition-duration: .2s;
+    box-shadow: 4px 4px 5px 1px rgba(0,0,0,0.3); 
+    border-bottom: 1px solid #000000;
+    overflow-y: scroll;
+}
+
+#firstinput {
+    margin-left: 10%;
+    width: 254px;
+    margin-top: 5px;
+    width: 80%;
+}
+
+#firstselect {
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 5px;
+}
+
+#firstreset {
+    width: 80%;
+    margin-top: 5px;
+    margin-left: 10%;
+    color: #000000;
+}
+
+#slabela {
+    margin-left: 10%;
+}
+
+#slabelb {
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+#slabelc {
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+#umschliessen {
+    width: 70%;
+    height: 400px;
+    margin-left: 15%;
+    margin-top: 70px;
+    background-color: #efefef;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.searchdiv select::-ms-expand {
+    display: none;
+    
+}
+
+.closesearchdiv {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 40px;
+    height: 40px;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-left: 1%;
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3); 
+    text-align: center;
+    cursor: pointer;
+    appearance: none;
+}
+
+.opensearch {
+    
+    display: block;
+}
+
+#suchenbutton {
+    height: 40px;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-left: 1%;
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3); 
+    width: 35%;
+    margin-left: 10%;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    margin-top: 40px;
+    cursor: pointer;
+    appearance: none;
+}
+
+#resetbutton {
+    height: 40px;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-left: 1%;
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3); 
+    width: 35%;
+    margin-left: 10%;  
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    appearance: none;
+}
+
+.searchic {
+    position: absolute;
+    left: 50%;
+    top: 257px;
+    width: 40px;
+    height: 36px;
+    background-color: #730039;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #efefef;
+    cursor: pointer;
+    
+}
+
+/*Navigation*/
+
+.navigationv4 {
+    padding-right: 100px;
+}
+
+
+/*Main-Element*/
+
+.hideangebot {
+    display: none;
+}
+
+.angeboteroot {
+    margin-top: 50px;
+    height: 0px;
+    width: 100%;
+    
+}
+
+#test {
+    margin-top: 100px;
+}
+
+.unterteilungangebot1 {
+    width: 100%;
+    height: 12px;
+    margin-top: 80px;
+    background-color: #dedede;
+    z-index: 0;
+}
+
+.unterteilungangebotext1 {
+    position: absolute;
+    width: 40%;
+    height: 30px;
+    background-color: #dedede;
+    left: 30%;
+    top: 71px;
+    border-radius: 10px;
+    text-align: center;
+    color: #730039;
+    font-size: 15px;
+    padding-top: 6px;
+    font-weight: bold;
+}
+
+.unterteilungangebot2 {
+    width: 100%;
+    height: 12px;
+    margin-top: 80px;
+    background-color: #dedede;
+    z-index: 0;
+}
+
+.unterteilungangebotext2 {
+    position: absolute;
+    width: 40%;
+    height: 30px;
+    background-color: #dedede;
+    left: 30%;
+    top: 442px;
+    border-radius: 10px;
+    text-align: center;
+    color: #730039;
+    font-size: 15px;
+    padding-top: 6px;
+    font-weight: bold;
+}
+
+.unterteilungangebot3 {
+    width: 100%;
+    height: 12px;
+    margin-top: 80px;
+    background-color: #dedede;
+    z-index: 0;
+}
+
+.unterteilungangebotext3 {
+    position: absolute;
+    width: 40%;
+    height: 30px;
+    background-color: #dedede;
+    left: 30%;
+    top: 814px;
+    border-radius: 10px;
+    text-align: center;
+    color: #730039;
+    font-size: 15px;
+    padding-top: 6px;
+    font-weight: bold;
+}
+.angebotrootsection {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+main {
+    display: block;
+    clear: both;
+    width: 100%;
+}
+
+.getWidth {
+    z-index: 100000;
+    width: 160px;
+    height: 80px;
+    background-color: black;
+    position: absolute;
+    top: 60px;
+    display: none;
+
+}
+
+.innerht {
+    color: #ffffff;
+}
+
+
+
+/*Suchbox*/
+
+
+/*Tablet*/
+
+@media screen and (max-width: 50em) and (min-width: 30em){
+    #searchclicki {
+        left: 90%;
+        position: absolute;
+    }
+
+    .teachgym {
+        padding-left: 30%;
+        padding-right: 0;
+    }
+
+    .searchic {
+        position: absolute;
+        left: 70%;
+    }
+
+    #createclose {
+        left: 500px;
+    }
+
+}
+
+/*Laptop*/
+
+@media screen and (max-width: 64em) and (min-width: 50em){
+    #searchclicki {
+        position: absolute;
+        left: 90%;
+    }
+
+    .searchic {
+        position: absolute;
+        left: 80%;
+    }
+    
+    .teachgym {
+        padding-left: 35%;
+        padding-right: 0;
+    }
+}
+
+/*PC*/

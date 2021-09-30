@@ -1,0 +1,85 @@
+.section {
+    width: 38%;
+    height: 240px;
+    margin-left: 8%;
+    background-color: #efefef;
+    border-radius: 1%;
+    box-sizing: border-box;
+    z-index: 0;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionheader {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    font-size: 1.2em;
+    align-items: center;
+    text-align: center;
+}
+
+.angebotbild {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: black;
+}
+
+.angebotspanheader {
+    font-size: 0.9em;
+    padding-top: 5px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.sectionbody {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: -5px;
+    font-size: 1em;
+}
+
+.sectionun {
+    color: #730039;
+    font-size: 0.8em;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.sectionfooter {
+    width: 100%;
+    height: 40px;
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #730039;
+}
+
+.sectionbutton {
+    width: 70%;
+    height: 25px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    color: #730039;
+}
+
+
+
+@media (min-width: 481px) and (max-width: 800px){
+    .section {
+        width: 32%;
+        margin-left: 12%;
+    }
+}
+
+@media screen and (max-width: 64em) and (min-width: 50em){
+    .section {
+        width: 28%;
+    }
+}

@@ -1,0 +1,73 @@
+.profilroot {
+    width: 100%;
+    height: 100%;
+    z-index: 300;
+    background-color: #ffffff;
+    position: fixed;
+    display: none;
+    overflow-y: scroll;
+}
+
+.proinfos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profilpic {
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+#closeprofil {
+    left: 20px;
+    top: 55px;
+    position: absolute;
+}
+
+.bildbutton {
+    width: 200px;
+    height: 40px;
+    outline: none;
+    background-color: #efefef;
+    border: none;
+    font-size: 20px;
+    color: #730039;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.profiln {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#profillabel1 {
+    margin-top: 20px;
+}
+
+#profillabel2 {
+    margin-top: 20px;
+}
+
+#profillabel3 {
+    margin-top: -40px;
+    position: absolute;
+    top: 500px;
+    left: 200px;
+}
+
+.profilbutton {
+    outline: none;
+    border: 2px #efefef solid;
+    width: 40%;
+    height: 30px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+

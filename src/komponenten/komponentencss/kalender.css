@@ -1,0 +1,115 @@
+.kalenderroot {   
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 105;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+.kalenderdes {
+    width: 100%;
+    height: 70px;
+    margin-top: 55px;
+    background-color: #efefef;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.kalenderdes strong {
+    font-size: 20px;
+}
+
+.kalenderclose {
+    position: absolute;
+    top: 60px;
+    left: 430px;
+}
+
+.kalender {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 80px;
+    height: 453px;
+    background-color: #fff;
+    border: 3px solid #efefef;
+    padding: 0;
+}
+
+.kalenderheader {
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    background-color: #efefef;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kalenderitem {
+    width: 14.2857142857%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #efefef;
+    height: 80px
+}
+
+.kalenderrow {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.kalendereintrag {
+    width: 90%;
+    margin-left: 5%;
+    height: 350px;
+    background-color: #fff;
+    margin-top: 70px;
+    border: 1px solid #efefef;
+}
+
+#kalenderfirst {
+    border-color: #730039;
+    width: 100%;
+    margin-top: 40px;
+    background-color: #fff;
+    border-width: 1px;
+}
+
+#kalendersecond {
+    border-color: #730039;
+    width: 100%;
+    margin-top: 30px;
+    border-width: 1px;
+}
+
+#kalenderthird {
+    border-color: #730039;
+    width: 100%;
+    margin-top: 30px;
+    border-width: 1px;
+}
+
+.kalenderformbutton {
+    width: 50%;
+    height: 40px;
+    outline: none;
+    border: 1px #730039 solid;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-left: 25%;
+}
+
+.kalendereinträge {
+    width: 90%;
+    margin-left: 5%;
+    height: 200px;
+    background-color: #fff;
+    margin-top: 50px;
+    border: 1px solid #efefef;
+}

@@ -1,0 +1,43 @@
+nav {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    background-color: #efefef;
+    z-index: 3;
+}
+
+.drawerheader {
+    display: 'flex';
+    align-items: 'center';
+    height: 60px;
+    padding-top: 10px;
+    margin-top: 55px;
+    width: 100%;
+}
+
+#navi {
+    padding-left: 140px;
+    padding-right: 90px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.schnell:hover {
+    background-color: #efefef;
+}
+
+@media screen and (max-width: 50em) and (min-width: 30em){
+    #navi {
+        padding-left: 40%;
+        margin-top: 20px;
+    }
+
+    .clonav {
+        position: absolute;
+        left: 23%;
+    }
+
+}
+
+
