@@ -22,6 +22,13 @@
 
 }
 
+@media screen and (max-width: 64em) and (min-width:50em) {
+    .detailclose {
+        position: absolute;
+        left: 90%;
+    }   
+}
+
 #detailflex {
     display: flex;
     flex-direction: column;

@@ -248,6 +248,8 @@ background-color-hellgrau: #efefef
     width: 100%;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     margin-top: 40px;
 }
 
@@ -272,6 +274,13 @@ main {
     color: #ffffff;
 }
 
+.fadein {
+    width: 38%;
+    height: 240px;
+}
+
+
+
 
 
 /*Suchbox*/
@@ -292,7 +301,7 @@ main {
 
     .searchic {
         position: absolute;
-        left: 70%;
+        left: 75%;
     }
 
     #createclose {
@@ -306,12 +315,12 @@ main {
 @media screen and (max-width: 64em) and (min-width: 50em){
     #searchclicki {
         position: absolute;
-        left: 90%;
+        left: 84%;
     }
 
     .searchic {
         position: absolute;
-        left: 80%;
+        left: 74%;
     }
     
     .teachgym {

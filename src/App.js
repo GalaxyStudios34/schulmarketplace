@@ -74,6 +74,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+
 export default function PersistentDrawerLeft() {
   const classes = useStyles();
   const [open] = React.useState(false);
@@ -155,14 +156,17 @@ export default function PersistentDrawerLeft() {
       <div className="unterteilungangebot1"></div>
       <div className="unterteilungangebotext1">Deine Matches</div>
       <div className="angebotrootsection">
+      <Angebot/>
       <Angebot />
-      <Angebot />
+      
+      
+      
       </div>
       <div className="unterteilungangebot2"></div>
       <div className="unterteilungangebotext2">Erstellte Matches</div>
       <div className="angebotrootsection">
       <Angebot />
-      <Angebot />
+      <Angebot /> 
       </div>
       <div className="unterteilungangebot3"></div>
       <div className="unterteilungangebotext3">Vorschläge für dich </div>

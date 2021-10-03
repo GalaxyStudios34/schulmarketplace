@@ -1,7 +1,8 @@
 .section {
     width: 38%;
     height: 240px;
-    margin-left: 8%;
+    margin-left: 4%;
+    margin-right: 4%;
     background-color: #efefef;
     border-radius: 1%;
     box-sizing: border-box;
@@ -69,14 +70,12 @@
     color: #730039;
 }
 
-
-
-@media (min-width: 481px) and (max-width: 800px){
+@media screen and (min-width: 581.6px) and (max-width: 50em) {
     .section {
-        width: 32%;
-        margin-left: 12%;
+        width: 221px;
     }
 }
+
 
 @media screen and (max-width: 64em) and (min-width: 50em){
     .section {

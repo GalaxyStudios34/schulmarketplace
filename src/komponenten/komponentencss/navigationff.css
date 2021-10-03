@@ -40,4 +40,17 @@ nav {
 
 }
 
+@media screen and (max-width: 64em) and (min-width: 50em){
+    #navi {
+        padding-left: 40%;
+        margin-top: 20px;
+    }
+
+    .clonav {
+        position: absolute;
+        left: 28%;
+    }
+
+}
+
 
