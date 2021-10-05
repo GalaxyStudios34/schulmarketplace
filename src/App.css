@@ -315,7 +315,7 @@ main {
 @media screen and (max-width: 64em) and (min-width: 50em){
     #searchclicki {
         position: absolute;
-        left: 84%;
+        left: 92%;
     }
 
     .searchic {

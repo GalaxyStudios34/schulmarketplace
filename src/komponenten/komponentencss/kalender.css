@@ -113,3 +113,15 @@
     margin-top: 50px;
     border: 1px solid #efefef;
 }
+
+@media screen and (max-width: 50em) and (min-width: 30em){
+    .kalenderclose {
+        left: 89%;
+    }
+}
+
+@media screen and (max-width: 64em) and (min-width: 50em){
+    .kalenderclose {
+        left: 90%;
+    }
+}
