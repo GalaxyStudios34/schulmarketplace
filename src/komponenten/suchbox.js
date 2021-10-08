@@ -15,6 +15,7 @@ function Suchbox(){
                 Suche
                 <div className="detailclose" onClick={seaclose}><IconButton className="closedetail"><CloseIcon/></IconButton></div>
             </div>
+            <div className="formum">
           <form id="umschliessen">
         <label id="slabela" className="cformlabel">Suchen</label>
         <input id="firstinput" type="text" placeholder="Suche nach Matches" className="cforminput" >
@@ -56,6 +57,7 @@ function Suchbox(){
         <label className="cformlabel" id="slabelc">Zurücksetzten</label>
         <button id="firstreset" className="cformbutton" type="reset">Kategorien und Suche leeren</button>
         </form>
+        </div>
       </div>
     )
 }

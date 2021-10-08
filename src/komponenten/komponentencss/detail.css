@@ -161,3 +161,9 @@ h2 {
 #favoriteicon {
     font-size: 30px;
 }
+
+@media screen and (min-width: 64em){
+    .detailclose {
+        left: 96%;
+    }
+}

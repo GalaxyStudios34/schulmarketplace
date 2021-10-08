@@ -16,6 +16,10 @@ background-color-hellgrau: #efefef
     padding-right: 60px;
 }
 
+.navul {
+    display: none;
+}
+
 .searchroot {
     width: 100%;
     height: 100%;
@@ -330,3 +334,91 @@ main {
 }
 
 /*PC*/
+
+@media screen and (min-width: 64em){
+    .teachgym {
+        padding-left: 2%;
+        padding-right: 0;
+    }
+
+    #navicon {
+        display: none;
+    }
+
+    .navul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style: none;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+
+    .navul li {
+        margin-left: 50px;
+        letter-spacing: 0.8px;
+        box-sizing: border-box;
+        height: 55px;
+        margin-top: -10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .navul li:hover {
+        cursor: pointer;
+        border-bottom: 2px solid #ffffff;
+    }
+
+    #searchclicki {
+        position: absolute;
+        left: 95%;
+    }
+    .searchic {
+        left: 69%;
+    }
+    .formum {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #umschliessen {
+        width: 800px;
+        margin-left: 0;
+    }
+
+    .unterteilungangebot1 {
+        height: 20px;
+    }
+
+    .unterteilungangebot2 {
+        height: 20px;
+    }
+
+    .unterteilungangebot3 {
+        height: 20px;
+    }
+
+    .unterteilungangebotext1 {
+        height: 40px;
+        top: 70px;
+        border-radius: 15px;
+        justify-content: center;
+        font-size: 18px;
+    }
+
+    .unterteilungangebotext2 {
+        height: 40px;
+        top: 450px;
+        border-radius: 15px;
+        justify-content: center;
+        font-size: 18px;
+    }
+
+    .unterteilungangebotext3 {
+        height: 40px;
+        top: 830px;
+        border-radius: 15px;
+        justify-content: center;
+        font-size: 18px;
+    }
+}

@@ -123,12 +123,20 @@ export default function PersistentDrawerLeft() {
             onClick={togglenav}
             edge="start"
             className={clsx(classes.menuButton, open && classes.hide)}
+            id="navicon"
           >
             <MenuIcon />
           </IconButton>
           <Typography className="teachgym" variant="h5" >
             TeachGym
           </Typography>
+          <ul className="navul">
+            <li>Home</li>
+            <li>Profil</li>
+            <li>Deine Matches</li>
+            <li>Gebuchte Matches</li>
+            <li>Match erstellen</li>
+          </ul>
           <IconButton id="searchclicki" aria-label="search" color="inherit" onClick={togglesearch} >
             <SearchIcon
              />
