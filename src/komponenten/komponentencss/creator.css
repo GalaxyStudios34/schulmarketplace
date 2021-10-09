@@ -157,9 +157,48 @@
     color: #000000;
 }
 
-@media (min-width: 480px) and (max-width: 600px){
+@media screen and (min-width: 480px) and (max-width: 600px){
     .dropi {
         left: 76%;
     }
 
+}
+
+@media screen and (min-width: 30em) and (max-width: 50em){
+    .dropi {
+        left: 68%;
+    }
+
+    .cformlabel {
+        margin-left: 28%;
+    }
+}
+
+@media screen and (min-width: 50em) and (max-width: 64em){
+    .dropi {
+        left: 63%;
+    }
+
+    .cformlabel {
+        margin-left: 32%;
+    }
+}
+
+@media screen and (min-width: 64em){
+    .creatordrum {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .creatorcenter {
+        width: 800px;
+    }
+
+    .cformlabel {
+        margin-left: 32%;
+    }
+
+    .dropi {
+        left: 58%;
+    }
 }

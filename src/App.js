@@ -95,6 +95,30 @@ export default function PersistentDrawerLeft() {
     $('.nav').fadeToggle('slow')
   };
 
+  const navprofil = () => {
+    $('#first').fadeOut()
+    $('.nav').fadeOut()
+    $('.detailroot').fadeOut()
+    $('.creator').fadeOut('slow') 
+    $('.profilroot').fadeIn('slow')
+  }
+
+  const navhome = () => {
+    $('.profilroot').fadeOut()
+    $('#first').fadeOut()
+    $('.detailroot').fadeOut()
+    $('.creator').fadeOut('slow') 
+    $('.nav').fadeOut('slow')
+    window.location.href="#appbar"
+  }
+  const creattog = () => {
+    $('.profilroot').fadeOut()
+    $('#first').fadeOut()
+    $('.nav').fadeOut()
+    $('.detailroot').fadeOut()
+    $('.creator').fadeIn('slow') 
+  }
+
   $('.getWidthButton').click(function(){
     let p = $('.innerht')
     let width = document.body.offsetWidth;
@@ -115,7 +139,7 @@ export default function PersistentDrawerLeft() {
           [classes.appBarShift]: open,
         })}
       >
-        <Toolbar>
+        <Toolbar className="tool">
           
           <IconButton
             color="inherit"
@@ -131,11 +155,11 @@ export default function PersistentDrawerLeft() {
             TeachGym
           </Typography>
           <ul className="navul">
-            <li>Home</li>
-            <li>Profil</li>
-            <li>Deine Matches</li>
-            <li>Gebuchte Matches</li>
-            <li>Match erstellen</li>
+            <li id="linkhome" onclick={navhome}>Home</li>
+            <li id="linkprofil" onClick={navprofil}>Profil</li>
+            <li id="linkdeinematches">Deine Matches</li>
+            <li id="linkgebuchtematches">Gebuchte Matches</li>
+            <li id="linkmatcherstellen" onClick={creattog}>Match erstellen</li>
           </ul>
           <IconButton id="searchclicki" aria-label="search" color="inherit" onClick={togglesearch} >
             <SearchIcon

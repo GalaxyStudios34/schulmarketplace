@@ -166,4 +166,8 @@ h2 {
     .detailclose {
         left: 96%;
     }
+
+    .detailtabel {
+        width: 800px;
+    }
 }

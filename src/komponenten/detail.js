@@ -15,7 +15,7 @@ export default function Detail() {
         $('.kalenderroot').fadeIn('slow')
     }
     return (
-        <div className="detailroot">
+        <div className="detailroot"> 
             <div id="detailflex">
                 <div className="detailheader">
                     <strong>Chemie</strong>

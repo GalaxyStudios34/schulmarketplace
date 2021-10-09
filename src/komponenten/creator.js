@@ -12,10 +12,11 @@ export default function Creator(){
 
     return(
         <div className="creator"> 
-            <div className="creatordes">
+            <div className="creatordes"> 
                 Erstelle ein neues Angebot
                 <div className="detailclose " onClick={closecre}><IconButton className="closedetail"><CloseIcon/></IconButton></div>
             </div>
+            <div class="creatordrum">
             <form className="creatorcenter">
                 <ArrowDropDownIcon className="dropi"/>
                 <label className="cformlabel" htmlFor="Deutsch">Fach</label>
@@ -42,6 +43,7 @@ export default function Creator(){
                 <button id="cformbuttontwo" className="cformbutton" type="reset">Zurücksetzten</button>
                 </div>
             </form>
+            </div>
 
         </div>
     )

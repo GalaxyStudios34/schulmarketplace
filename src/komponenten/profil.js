@@ -14,6 +14,7 @@ export default function Profilfun() {
                 Dein Profil
                 <div className="detailclose" onClick={closepro}><IconButton className="closedetail"><CloseIcon/></IconButton></div>
             </div>
+            <div className="proum">
             <div className="proinfos">
                 <div className="profilpic"></div>
                 <p className="profiln">Felix Meier</p>
@@ -34,6 +35,7 @@ export default function Profilfun() {
                 <input type="text" className="cforminput" placeholder="Stärken..."></input>
                 <button className="profilbutton">Speichern</button>
                 
+            </div>
             </div>
         </div>
     )

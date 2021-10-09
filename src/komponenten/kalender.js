@@ -14,6 +14,7 @@ export default function Kalender() {
                 <strong>Dein Kalender</strong>
                 <div className="kalenderclose" onClick={kalenderclose}><IconButton className="closedetail"><CloseIcon/></IconButton></div>
             </div>
+            <div className="kalenderum">
             <section className="kalender">
             <div className="kalenderheader">Januar</div>
                 <section className="kalenderrow">
@@ -76,6 +77,7 @@ export default function Kalender() {
             <section className="kalendereinträge">
                 <div className="kalenderheader">Einträge</div>
             </section>
+            </div>
         </div>
     )
 }

@@ -105,7 +105,7 @@
     margin-left: 25%;
 }
 
-.kalendereinträge {
+.kalendereinträge { 
     width: 90%;
     margin-left: 5%;
     height: 200px;
@@ -123,5 +123,29 @@
 @media screen and (max-width: 64em) and (min-width: 50em){
     .kalenderclose {
         left: 90%;
+    }
+}
+
+@media screen and (min-width: 64em){
+    .kalenderclose {
+        left: 95%;
+    }
+
+    .kalender {
+        width: 800px;
+    }
+
+    .kalendereintrag {
+        width: 800px;
+    }
+
+    .kalendereinträge {
+        width: 800px;
+    }
+
+    .kalenderum {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
