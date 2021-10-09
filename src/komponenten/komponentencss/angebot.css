@@ -82,3 +82,9 @@
         width: 28%;
     }
 }
+
+@media screen and (min-width: 64em){
+    .section {
+        width: 300px;
+    }
+}

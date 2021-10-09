@@ -16,6 +16,18 @@ background-color-hellgrau: #efefef
     padding-right: 60px;
 }
 
+#angebotdazu1 {
+    display: none;
+}
+
+#angebotdazu2 {
+    display: none;
+}
+
+#angebotdazu3 {
+    display: none;
+}
+
 .navul {
     display: none;
 }
@@ -143,7 +155,7 @@ background-color-hellgrau: #efefef
 
 .searchic {
     position: absolute;
-    left: 50%;
+    left: 67%;
     top: 257px;
     width: 40px;
     height: 36px;
@@ -420,5 +432,24 @@ main {
         border-radius: 15px;
         justify-content: center;
         font-size: 18px;
+    }
+
+    .angebotrootsection {
+        display: grid;
+        grid-template-rows: 240px;
+        grid-template-columns: 1fr 1fr 1fr;
+        place-items: center;
+    }
+
+    #angebotdazu1 {
+        display: block;
+    }
+
+    #angebotdazu2 {
+        display: block;
+    }
+
+    #angebotdazu3 {
+        display: block;
     }
 }

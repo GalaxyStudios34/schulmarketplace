@@ -19,6 +19,6 @@ export default function Angebot() {
             <button className="sectionbutton">Details</button> 
             </div>
             
-        </div>
+        </div> 
     )
 }

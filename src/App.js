@@ -1,6 +1,7 @@
 //Imports
 import React from 'react';
 import './App.css';
+import './komponenten/komponentencss/angebot.css';
 import clsx from 'clsx';
 import {  makeStyles, } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -86,6 +87,10 @@ export default function PersistentDrawerLeft() {
     $('.profilroot').fadeOut();
     $('#first').fadeToggle('slow');
   };
+
+  const sectiononclick = () => {
+    $('.detailroot').fadeToggle('slow')
+}
 
   const togglenav = () => {
     $('.creator').fadeOut();
@@ -190,6 +195,19 @@ export default function PersistentDrawerLeft() {
       <div className="angebotrootsection">
       <Angebot/>
       <Angebot />
+      <div className="section" id="angebotdazu3" onClick={sectiononclick}>
+            <div className="sectionheader">
+                <div className="angebotbild"></div>
+                <p className="angebotspanheader">Felix Meier</p>
+                <p className="sectionun">Chemie</p>
+            </div>
+            <div className="sectionbody">
+            </div>
+            <div className="sectionfooter">
+            <button className="sectionbutton">Details</button> 
+            </div>
+            
+        </div> 
       
       
       
@@ -198,13 +216,39 @@ export default function PersistentDrawerLeft() {
       <div className="unterteilungangebotext2">Erstellte Matches</div>
       <div className="angebotrootsection">
       <Angebot />
-      <Angebot /> 
+      <Angebot />
+      <div className="section" id="angebotdazu3" onClick={sectiononclick}>
+            <div className="sectionheader">
+                <div className="angebotbild"></div>
+                <p className="angebotspanheader">Felix Meier</p>
+                <p className="sectionun">Chemie</p>
+            </div>
+            <div className="sectionbody">
+            </div>
+            <div className="sectionfooter">
+            <button className="sectionbutton">Details</button> 
+            </div>
+            
+        </div> 
       </div>
       <div className="unterteilungangebot3"></div>
       <div className="unterteilungangebotext3">Vorschläge für dich </div>
       <div className="angebotrootsection" id="sectionbeforefooter">
-      <Angebot />
-      <Angebot />
+      <Angebot></Angebot>
+      <Angebot></Angebot>
+      <div className="section" id="angebotdazu3" onClick={sectiononclick}>
+            <div className="sectionheader">
+                <div className="angebotbild"></div>
+                <p className="angebotspanheader">Felix Meier</p>
+                <p className="sectionun">Chemie</p>
+            </div>
+            <div className="sectionbody">
+            </div>
+            <div className="sectionfooter">
+            <button className="sectionbutton">Details</button> 
+            </div>
+            
+        </div> 
       </div>
       </main>  
       </div>
